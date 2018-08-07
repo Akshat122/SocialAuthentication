@@ -21,7 +21,7 @@ COMMASPACE = ', '
 def main():
     sender = '' # Email Address here
     gmail_password = ''# Password here
-    recipients = [''] # Email of the  recipients
+    recipients = ['akshat.khanna@st.niituniversity.in'] # Email of the  recipients
     text = "Hey user Help Akshat to prove his identity by providing this Pin."
 
     # Create the enclosing (outer) message
@@ -33,7 +33,7 @@ def main():
     outer.attach(MIMEText(text, 'plain')) 
 
     # List of attachments
-    attachments = ['/home/akshat/Desktop/RSA/Pin.txt']
+    attachments = ['Pin.txt']
 
     # Add the attachments to the message
     for file in attachments:

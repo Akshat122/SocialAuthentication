@@ -21,7 +21,7 @@ COMMASPACE = ', '
 def main():
     sender = '' # Email address here
     gmail_password = '' # Password here
-    recipients = [''] # Email of the recipient
+    recipients = ['akshat.khanna@st.niituiversity.in'] # Email of the recipient
     text = "Hey user here is the file u require to prove your identity. A PIN of 6 digits is sent to your Trusted contacts. In order to prove your Identity you need the get the Pin and upload this public key to successfully complete the user verification procedure."
 
     # Create the enclosing (outer) message
@@ -33,7 +33,7 @@ def main():
     outer.attach(MIMEText(text, 'plain')) 
 
     # List of attachments
-    attachments = ['/home/akshat/Desktop/RSA/Private.pem']
+    attachments = ['Private.pem']
 
     # Add the attachments to the message
     for file in attachments:
