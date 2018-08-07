@@ -19,9 +19,9 @@ from email.mime.text import MIMEText
 COMMASPACE = ', '
 
 def main():
-    sender = 'coclover.aaphater@gmail.com'
-    gmail_password = 'aabbcc1234'
-    recipients = ['Akshat.khanna@st.niituniversity.in']
+    sender = '' # Email Address here
+    gmail_password = ''# Password here
+    recipients = [''] # Email of the  recipients
     text = "Hey user Help Akshat to prove his identity by providing this Pin."
 
     # Create the enclosing (outer) message
